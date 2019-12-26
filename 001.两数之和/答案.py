@@ -3,6 +3,7 @@ class Solution(object):
     """
     :nums类型: List[int]
     :目标类型: int
+    :返回类型: List[int]
     """
     d = {}
     for i, num in enumerate(nums):
