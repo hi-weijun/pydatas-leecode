@@ -1,0 +1,16 @@
+编写一个函数来寻找最长公共前缀字符串(连续)之间字符串数组。
+
+Example 1:
+
+Input: ["flower","flow","flight"]
+Output: "fl"
+
+Example 2:
+
+Input: ["dog","racecar","car"]
+Output: ""
+Explanation: There is no common prefix among the input strings.
+
+Note:
+
+所有给定的输入是小写字母a-z。
