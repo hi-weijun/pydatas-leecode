@@ -26,7 +26,7 @@ class Solution(object):
       value, node = heapq.heappop(heap)
       p.next = node
       p = p.next
-      if node.next:
+      if node.next: 
         node = node.next
         heapq.heappush(heap, node)
     return dummy.next
