@@ -37,3 +37,5 @@ class Solution(object):
         rightWall = max(rightWall, height[right])
         right -= 1
     return ans
+
+
