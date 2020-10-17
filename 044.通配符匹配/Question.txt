@@ -1,0 +1,14 @@
+实现通配符模式匹配并支持“？”和“ *”。'？'匹配任何单个字符。
+'*'匹配任何字符序列（包括空序列）。匹配项应覆盖整个输入字符串（而非部分）。
+
+函数名应为：bool isMatch（const char * s，const char * p）
+
+例如
+isMatch("aa","a") → false
+isMatch("aa","aa") → true
+isMatch("aaa","aa") → false
+isMatch("aa", "") → true
+isMatch("aa", "a") → true
+isMatch("ab", "?") → true
+isMatch("aab", "ca*b") → false
+
